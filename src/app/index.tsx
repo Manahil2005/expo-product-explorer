@@ -38,7 +38,11 @@ export default function HomeScreen() {
             Welcome to&nbsp;Expo
           </ThemedText>
         </ThemedView>
-
+        
+        <ThemedText type="title" style={{ fontSize: 20, fontWeight: 'bold' }}>
+          Student: Manahil | Roll No: 23i-3000
+        </ThemedText>
+        
         <ThemedText type="code" style={styles.code}>
           get started
         </ThemedText>
